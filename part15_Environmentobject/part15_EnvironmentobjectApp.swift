@@ -12,6 +12,7 @@ struct part15_EnvironmentobjectApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(Ponta())
         }
     }
 }
